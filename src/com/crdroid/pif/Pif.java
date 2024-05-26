@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.goolag.pif;
+package com.crdroid.pif;
 
 import android.content.SharedPreferences;
 import android.os.Build;
@@ -14,10 +14,10 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceManager;
 
-import com.android.internal.util.evolution.PixelPropsUtils;
+import com.android.internal.util.crdroid.PixelPropsUtils;
 import com.android.settingslib.widget.TopIntroPreference;
 
-import com.goolag.pif.R;
+import com.crdroid.pif.R;
 
 public class Pif extends PreferenceFragmentCompat
         implements Preference.OnPreferenceChangeListener {

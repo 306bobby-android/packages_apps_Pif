@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.goolag.pif;
+package com.crdroid.pif;
 
 import android.os.Bundle;
 
